@@ -33,6 +33,9 @@ Your project is a deep learning application that identifies plant diseases from 
     - Potato: Early Blight, Late Blight, Healthy (3)
     - Corn: Common Rust, Healthy (2)
     - Apple: Apple Scab, Healthy (2)
+    - Image preprocessing
+
+  - Images are converted to a fixed size : Neural networks require same image size.
   - Image augmentation: Makes training images slightly different each time (rotate, blur, change brightness) so the model learns to recognize diseases under various real-world conditions (smartphone angles, lighting, etc.)
   - Train/Val/Test split: Divides data into 70% for training, 15% for validation (tuning), 15% for testing
   - Normalization: Adjusts image pixel values to be in a standard range so the model learns better
